@@ -31,21 +31,17 @@ This project explores the relationship between gender and survival probability o
 ```
 project-root/
 │
-├── data/
-│   ├── train/                 # Training data split by gender
-│   │   ├── train_male.csv
-│   │   └── train_female.csv
+├── Data/
+│   ├── Train/                 # Training data split by gender
 │   │
-│   ├── test/                  # Testing data split by gender
-│   │   ├── test_male.csv
-│   │   └── test_female.csv
+│   ├── Test/                  # Testing data split by gender
 │   │
-│   └── titanic_full.csv       # Original Titanic dataset
+│   └── Titanic-Dataset.csv       # Original Titanic dataset
 │
 ├── Notebooks/
-│   ├── 1_exploratory_analysis.ipynb      # Initial EDA: distributions, correlations, etc.
-│   ├── 2_preprocessing.ipynb             # Imputation, scaling, SMOTE
-│   └── 3_modeling_and_tlearner.ipynb     # Model training, predictions, and ATE computation
+│   ├── ExploratoryAnalysis.ipynb      # Initial EDA: distributions, correlations, etc.
+│   ├── Preprocessing.ipynb             # Imputation, scaling, SMOTE
+│   └── Models.ipynb     # Model training, predictions, and ATE computation
 │
 ├── dictionary_columns.txt     # Definitions and descriptions of each dataset column
 │
